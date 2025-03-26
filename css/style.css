@@ -3,6 +3,19 @@ body{
     font-family: sans-serif;
 }
 
-.left-nav img{
-    width: 100px;
+
+nav{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
 }
+
+.left-nav{
+    width: 50%;
+    background-color: red;
+}
+.right-nav{
+    width: 50%;
+    background-color: blue;
+}
+
