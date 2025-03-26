@@ -8,14 +8,47 @@ nav{
     width: 100%;
     display: flex;
     justify-content: space-around;
+    border-bottom: 2px solid #eee;
+    padding: 1rem;
 }
 
 .left-nav{
     width: 50%;
-    background-color: red;
+    display: flex;
+    justify-content: baseline;
+    padding: 1rem;
+    
 }
 .right-nav{
     width: 50%;
-    background-color: blue;
+    margin-top: 1rem;
+    display: flex;
+    justify-content: end;
+    margin-right: 5rem;
 }
 
+.right-nav button{
+    border: none;
+    padding: 1rem;
+    background-color: dodgerblue;
+    color: white;
+    border-radius: 8px;
+    font-weight: bold;
+    margin-right: 1rem;
+    
+    
+}
+.left-nav img{
+    width: 8rem;
+    /*margin-top: 2rem;*/
+    margin-left: 1rem;
+    margin-right: 2rem;
+}
+
+.left-nav a{
+    margin-top: 10rem;
+    padding: 10px;
+    display: inline;
+    position: relative;
+    top: 5px;
+}
