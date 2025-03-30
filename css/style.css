@@ -65,3 +65,13 @@ nav{
     text-decoration: none;
     color: darkslategrey;
 }
+.main{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.main p{
+    margin-top: 14rem;
+    font-weight: bold;
+    font-size: 5rem;
+}
